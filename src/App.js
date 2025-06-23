@@ -28,7 +28,7 @@ const EnhancedUserForm = () => {
     };
 
     getUploadedImages();
-  }, []); // Fetch images on component mount
+  }, []);
 
   const validateForm = () => {
     const newErrors = {};
